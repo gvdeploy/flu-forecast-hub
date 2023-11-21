@@ -1,0 +1,1 @@
+[{"target":["ILI incidence"],"countries":[{"id":["DE"],"members":[{"horizon":[1],"models":["PMI-SIRModel"]},{"horizon":[2],"models":["PMI-SIRModel"]},{"horizon":[3],"models":["PMI-SIRModel"]},{"horizon":[4],"models":["PMI-SIRModel"]}]}]}]
