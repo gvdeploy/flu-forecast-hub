@@ -2,6 +2,7 @@ import os
 import sys
 import csv
 from urllib.request import urlopen
+import urllib.error
 from datetime import datetime, timedelta
 from isoweek import Week
 
@@ -24,7 +25,8 @@ url = url.format(snapshot_date=snapshot_date)
 try:
     response = urlopen(url)
 except urllib.error.HTTPError:
-    sys.exit(0)
+    print (f'Http error - failed to access url {url}')
+    sys.exit(1)
 
 
 # Read data
@@ -35,11 +37,15 @@ csv_reader = csv.DictReader(lines, delimiter=',')
 
 ILI_records = [('location', 'truth_date', 'year_week', 'value')]
 
+# Temporarly exclude countries with inconsistent data scale 
+countries_to_exclude = ('Malta', 'Luxembourg', 'Cyprus')
 
 for row in csv_reader:
     if (row['survtype'] != 'primary care syndromic'
             or row['indicator'] != 'ILIconsultationrate'
-            or row['age'] != 'total'):
+            or row['age'] != 'total'
+            or row['countryname'] in countries_to_exclude
+       ):
         continue
     country2 = pycountry.countries.lookup(row['countryname']).alpha_2
     year, week = map(int, row['yearweek'].split('-W'))
