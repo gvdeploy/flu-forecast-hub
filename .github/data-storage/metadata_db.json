@@ -1,6 +1,6 @@
 {
     "changes": [
-        "model-metadata/respicast-hubEnsemble.yml",
-        "model-metadata/respicast-quantileBaseline.yml"
+        "model-metadata/ISI-FluABCaster.yml",
+        "model-metadata/ISI-GenLogModel.yml"
     ]
 }
