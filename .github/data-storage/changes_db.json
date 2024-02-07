@@ -17,6 +17,12 @@
             "changes": [
                 "model-output/ISI-IPSICast/2024-02-07-ISI-IPSICast.csv"
             ]
+        },
+        {
+            "model": "EpiNow",
+            "changes": [
+                "model-output/ISI-EpiNow/2024-02-07-ISI-EpiNow.csv"
+            ]
         }
     ],
     "QMUL": [
@@ -38,6 +44,18 @@
             "model": "FluForARIMA",
             "changes": [
                 "model-output/ECDC-FluForARIMA/2024-02-07-ECDC-FluForARIMA.csv"
+            ]
+        },
+        {
+            "model": "norrsken_blue",
+            "changes": [
+                "model-output/ECDC-norrsken_blue/2024-02-07-ECDC-norrsken_blue.csv"
+            ]
+        },
+        {
+            "model": "norrsken_green",
+            "changes": [
+                "model-output/ECDC-norrsken_green/2024-02-07-ECDC-norrsken_green.csv"
             ]
         }
     ],
