@@ -23,6 +23,12 @@
             "changes": [
                 "model-output/ISI-IPSICast/2024-02-14-ISI-IPSICast.csv"
             ]
+        },
+        {
+            "model": "GLEAM",
+            "changes": [
+                "model-output/ISI-GLEAM/2024-02-14-ISI-GLEAM.csv"
+            ]
         }
     ],
     "CSL_PoliTo": [
@@ -38,6 +44,12 @@
             "model": "FluForARIMA",
             "changes": [
                 "model-output/ECDC-FluForARIMA/2024-02-14-ECDC-FluForARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2024-02-14-ECDC-soca_simplex.csv"
             ]
         }
     ],
@@ -60,6 +72,14 @@
             "model": "EpiEKF",
             "changes": [
                 "model-output/ItaLuxColab-EpiEKF/2024-02-14-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
+    ],
+    "fjordhest": [
+        {
+            "model": "ensemble",
+            "changes": [
+                "model-output/fjordhest-ensemble/2024-02-14-fjordhest-ensemble.csv"
             ]
         }
     ]
