@@ -19,6 +19,18 @@
             "changes": [
                 "model-output/ECDC-FluForARIMA/2024-02-28-ECDC-FluForARIMA.csv"
             ]
+        },
+        {
+            "model": "norrsken_blue",
+            "changes": [
+                "model-output/ECDC-norrsken_blue/2024-02-28-ECDC-norrsken_blue.csv"
+            ]
+        },
+        {
+            "model": "norrsken_green",
+            "changes": [
+                "model-output/ECDC-norrsken_green/2024-02-28-ECDC-norrsken_green.csv"
+            ]
         }
     ],
     "QMUL": [
@@ -27,6 +39,12 @@
             "changes": [
                 "model-output/QMUL-ARIMA/2024-02-28-QMUL-ARIMA.csv"
             ]
+        },
+        {
+            "model": "SEIR",
+            "changes": [
+                "model-output/QMUL-SEIR/2024-02-28-QMUL-SEIR.csv"
+            ]
         }
     ],
     "ItaLuxColab": [
@@ -34,6 +52,46 @@
             "model": "EpiEKF",
             "changes": [
                 "model-output/ItaLuxColab-EpiEKF/2024-02-28-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "GenLogModel",
+            "changes": [
+                "model-output/ISI-GenLogModel/2024-02-28-ISI-GenLogModel.csv"
+            ]
+        },
+        {
+            "model": "FluABCaster",
+            "changes": [
+                "model-output/ISI-FluABCaster/2024-02-28-ISI-FluABCaster.csv"
+            ]
+        },
+        {
+            "model": "IPSICast",
+            "changes": [
+                "model-output/ISI-IPSICast/2024-02-28-ISI-IPSICast.csv"
+            ]
+        },
+        {
+            "model": "EpiNow",
+            "changes": [
+                "model-output/ISI-EpiNow/2024-02-28-ISI-EpiNow.csv"
+            ]
+        },
+        {
+            "model": "GLEAM",
+            "changes": [
+                "model-output/ISI-GLEAM/2024-02-28-ISI-GLEAM.csv"
+            ]
+        }
+    ],
+    "fjordhest": [
+        {
+            "model": "ensemble",
+            "changes": [
+                "model-output/fjordhest-ensemble/2024-02-28-fjordhest-ensemble.csv"
             ]
         }
     ]
